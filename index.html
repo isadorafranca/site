@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <title>Isadora França . Biologia, Dados e Educação</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Portfólio de Isadora França . bióloga, cientista de dados em formação e educadora em genética, biologia molecular e EaD."
+    />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="theme-color" content="#020617" />
+
+    <!-- Fonte Karla estilo anuraghazra.dev -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="noise-overlay"></div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#home" class="logo">isadora<span>frança</span></a>
+
+        <nav class="nav">
+          <button id="nav-toggle" class="nav-toggle" aria-label="Abrir menu">
+            ☰
+          </button>
+          <ul id="nav-list" class="nav-list">
+            <li><a href="#home">início</a></li>
+            <li><a href="#about">sobre</a></li>
+            <li><a href="#projects">projetos</a></li>
+            <li><a href="#research">pesquisa</a></li>
+            <li><a href="#contact">contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section id="home" class="section hero">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <p class="pill">bióloga . data science . educação</p>
+
+            <p class="hero-eyebrow">Olá, eu sou</p>
+            <h1 class="hero-title">Isadora França</h1>
+            <p class="hero-subtitle">
+              Professora de genética e biologia molecular
+              explorando ciência de dados, IA e ensino em EaD
+              para contar histórias com genomas, mapas e pessoas.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn-primary">ver projetos</a>
+              <a href="#contact" class="btn-ghost">falar comigo</a>
+            </div>
+
+            <div class="hero-meta">
+              <span class="dot"></span>
+              <span>Ecotoxicogenômica computacional e EaD em saúde</span>
+            </div>
+          </div>
+
+          <div class="hero-side">
+            <div class="code-card card">
+              <div class="code-card-header">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+<pre><code class="code-block">class Pessoa {
+  constructor() {
+    this.nome = "Isadora França"
+    this.formação = ["Biologia", "Mestrado em Zoologia",
+      "Ciência de Dados"]
+    this.interesses = ["Genética", "Ômicas", "SIG",
+      "Machine Learning", "Educação"]
+  }
+}</code></pre>
+            </div>
+
+            <figure class="profile-card card">
+              <img
+                src="assets/profile.jpg"
+                alt="Foto de Isadora França"
+                class="profile-img"
+              />
+              <figcaption class="profile-caption">
+                <p class="profile-name">Isadora Teresa França Pereira</p>
+                <p class="profile-role">
+                  doutoranda BIONORTE e mediadora em EaD
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sobre -->
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-eyebrow">sobre</p>
+            <h2 class="section-title">
+              Entre genomas, mapas e salas virtuais
+            </h2>
+          </div>
+
+          <div class="grid two-cols gap-lg">
+            <div class="card soft">
+              <p>
+                Atuo no ensino de Genética Humana, Biologia Molecular e
+                Biotecnologia em cursos da área da saúde. Trabalho com
+                práticas guiadas autorais, laboratórios virtuais e projetos
+                de extensão que aproximam universidade e escola básica.
+              </p>
+              <p>
+                Hoje caminho para integrar ômicas, SIG e aprendizado de
+                máquina em um projeto de ecotoxicogenômica computacional,
+                olhando para vulnerabilidades ambientais no Golfão
+                Maranhense.
+              </p>
+            </div>
+
+            <div class="card soft">
+              <h3 class="card-title">stack e interesses</h3>
+              <ul class="tag-list">
+                <li class="tag">Python</li>
+                <li class="tag">R</li>
+                <li class="tag">Pandas</li>
+                <li class="tag">Bioinformática</li>
+                <li class="tag">Ômicas</li>
+                <li class="tag">SIG</li>
+                <li class="tag">Machine Learning</li>
+                <li class="tag">EaD e IA</li>
+              </ul>
+              <p class="muted">
+                Também crio conteúdos visuais e narrativas para redes
+                sociais, dialogando ciência, dados e cotidiano.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projetos -->
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-eyebrow">projetos</p>
+            <h2 class="section-title">
+              Onde dados encontram histórias
+            </h2>
+          </div>
+
+          <div class="grid two-cols gap-lg">
+            <article class="card project-card">
+              <p class="project-label">ecotoxicogenômica . doutorado</p>
+              <h3 class="project-title">
+                Modelagem de vulnerabilidade ecossistêmica no Golfão
+                Maranhense
+              </h3>
+              <p class="project-description">
+                Integração de dados ômicos, informações ambientais e
+                SIG para identificar hotspots de risco e apoiar
+                decisões em conservação e manejo costeiro.
+              </p>
+              <ul class="chip-row">
+                <li class="chip">R</li>
+                <li class="chip">ML</li>
+                <li class="chip">SIG</li>
+                <li class="chip">Multiômica</li>
+              </ul>
+            </article>
+
+            <article class="card project-card">
+              <p class="project-label">EaD . inovação</p>
+              <h3 class="project-title">
+                Práticas guiadas autorais em biologia molecular
+              </h3>
+              <p class="project-description">
+                Sequência de atividades com laboratórios virtuais,
+                estudos de caso e ferramentas de bioinformática
+                para formar estudantes em biomedicina e áreas da
+                saúde.
+              </p>
+              <ul class="chip-row">
+                <li class="chip">EaD</li>
+                <li class="chip">Laboratório virtual</li>
+                <li class="chip">Design instrucional</li>
+              </ul>
+            </article>
+
+            <article class="card project-card">
+              <p class="project-label">ciência de dados</p>
+              <h3 class="project-title">
+                Dashboards de engajamento em AVA
+              </h3>
+              <p class="project-description">
+                Análises de acesso, permanência e padrões de estudo
+                em disciplinas de genética para entender como os
+                estudantes se movimentam no ambiente virtual.
+              </p>
+              <ul class="chip-row">
+                <li class="chip">Python</li>
+                <li class="chip">Power BI</li>
+                <li class="chip">Análise de dados</li>
+              </ul>
+            </article>
+
+            <article class="card project-card">
+              <p class="project-label">comunicação científica</p>
+              <h3 class="project-title">
+                Manas e Dados
+              </h3>
+              <p class="project-description">
+                Conteúdos em redes sociais sobre rotina de doutoranda,
+                bastidores de pesquisa, IA, ciência de dados e
+                maternidade acadêmica.
+              </p>
+              <ul class="chip-row">
+                <li class="chip">Instagram</li>
+                <li class="chip">Storytelling</li>
+                <li class="chip">IA</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pesquisa / publicações -->
+      <section id="research" class="section">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-eyebrow">pesquisa</p>
+            <h2 class="section-title">
+              Artigos, capítulos e projetos em andamento
+            </h2>
+          </div>
+
+          <div class="grid two-cols gap-lg">
+            <div class="card soft">
+              <h3 class="card-title">focos atuais</h3>
+              <ul class="bullet-list">
+                <li>
+                  Integração de IA e EaD em universidades inteligentes
+                </li>
+                <li>
+                  Ecotoxicogenômica e modelagem de vulnerabilidade
+                  ambiental
+                </li>
+                <li>
+                  Práticas guiadas e laboratórios virtuais em genética
+                  e biologia molecular
+                </li>
+              </ul>
+            </div>
+
+            <div class="card soft">
+              <h3 class="card-title">para colaboração</h3>
+              <p>
+                Interesse em projetos que cruzem educação, dados e
+                meio ambiente. Se você trabalha com ômicas, SIG,
+                ciência de dados educacionais ou comunicação científica,
+                vamos conversar.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contato -->
+      <section id="contact" class="section section-contact">
+        <div class="container contact-inner card">
+          <div>
+            <p class="section-eyebrow">contato</p>
+            <h2 class="section-title">
+              Bora pensar dados, docência e futuro juntos
+            </h2>
+            <p class="muted">
+              Envie um e-mail com ideias de colaboração, convites,
+              orientações ou dúvidas sobre ensino, dados e genética.
+            </p>
+
+            <ul class="contact-list">
+              <li>
+                <span class="contact-label">e-mail</span>
+                <a href="mailto:seu-email@exemplo.com">
+                  seu-email@exemplo.com
+                </a>
+              </li>
+              <li>
+                <span class="contact-label">github</span>
+                <a href="https://github.com/seu-usuario" target="_blank">
+                  github.com/seu-usuario
+                </a>
+              </li>
+              <li>
+                <span class="contact-label">instagram</span>
+                <a
+                  href="https://instagram.com/ednart_atelier"
+                  target="_blank"
+                >
+                  @ednart_atelier
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <form
+            class="contact-form"
+            onsubmit="event.preventDefault()"
+          >
+            <label class="field">
+              <span>Nome</span>
+              <input type="text" name="name" placeholder="Seu nome" />
+            </label>
+            <label class="field">
+              <span>E-mail</span>
+              <input
+                type="email"
+                name="email"
+                placeholder="voce@exemplo.com"
+              />
+            </label>
+            <label class="field">
+              <span>Mensagem</span>
+              <textarea
+                name="message"
+                rows="4"
+                placeholder="Conte um pouco da sua ideia"
+              ></textarea>
+            </label>
+            <button class="btn-primary" type="submit">
+              em breve formulário real
+            </button>
+            <p class="tiny muted">
+              Este formulário é estático. Para envio real use
+              serviços como Formspree ou Netlify Forms.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p class="muted tiny">
+          Feito com carinho, ciência e dados por Isadora França
+        </p>
+        <p class="muted tiny">
+          Inspirado em anuraghazra.dev . hospedado via GitHub Pages
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
